@@ -21,7 +21,7 @@ const handlePaymentSuccess = async (response) => {
 function RazorpayCheckout() {
   const handlePayment = async () => {
     // Fetch the order ID from your backend
-    const response = await fetch("/.netlify/functions/create-order", {
+    const response = await fetch("https://fast-react.onrender.com/create-order", {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

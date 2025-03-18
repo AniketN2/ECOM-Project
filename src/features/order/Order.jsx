@@ -41,7 +41,7 @@ function Order() {
 
   // Razorpay payment handler
   const handlePayment = async () => {
-    const API_BASE_URL = 'http://localhost:5000'; // Replace with your deployed backend URL in production
+    const API_BASE_URL = 'https://fast-react.onrender.com'; // Replace with your deployed backend URL in production
 
     try {
       // const response = await fetch(`${API_BASE_URL}/create-order`, {
